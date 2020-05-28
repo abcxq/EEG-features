@@ -26,6 +26,7 @@ Please cite the following  article:Qi Xiong,et al "A Parallel Algorithm Framewor
 相关论文：
 
 Qi Xiong, et al "A Parallel Algorithm Framework for Feature Extraction of EEG Signals on MPI," Computational and Mathematical Methods in Medicine, vol. 2020, Article ID 9812019, 10 pages, 2020. https://doi.org/10.1155/2020/9812019.
+
 引用论文：
 
 Qi Xiong,et al "A Parallel Algorithm Framework for Feature Extraction of EEG Signals on MPI," Computational and Mathematical Methods in Medicine, vol. 2020, Article ID 9812019, 10 pages, 2020. https://doi.org/10.1155/2020/9812019.
