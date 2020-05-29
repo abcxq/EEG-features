@@ -32,14 +32,15 @@ Usage steps:
 
 　　　１) Change the  directory to welch_eeg10 
    
-     2) make;#This will create a MPI progarm which can be used to extract Welch PSD  from EEG ;
+      2) make;#This will create a MPI progarm which can be used to extract Welch PSD  from EEG ;
      
-     3) copy ./bin/xqwelch ./diaoduall.sh  to the directory  which   the  preprocessed the EEG data located in ;
+      3) copy ./bin/xqwelch ./diaoduall.sh  to the directory  which   the  preprocessed the EEG data located in ;
      
      Users can adjust parameters according to the  number　 of　CPU coreｓ
      
-     4)bash diaoduall.sh 
-     
+      4)bash diaoduall.sh 
+  
+ If users encounter any problems in using this Parallel Algorithm Framework , please feel free to contact me.284983937@qq.com
 
 
 Relevant Papers:
@@ -76,6 +77,8 @@ Please cite the following  article:Qi Xiong,et al "A Parallel Algorithm Framewor
      3) copy ./bin/xqwelch ./diaoduall.sh  目录（此目录用来存放已经预处理好的脑电数据）用户可以根据自己电脑的ＣＰＵ的核数情况来调整参数。
      
      4)bash diaoduall.sh 
+     
+     用户在使用这个并行算法框架的过程中如果遇到什么问题，欢迎联系我。284983937@qq.com
      
 
 相关论文：
