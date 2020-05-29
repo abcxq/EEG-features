@@ -15,18 +15,31 @@ parallel programming experience in constructing the parallel algorithms to extra
 
 
 Usage steps:
+
 1, Download the dataset from the URL:http://kdd.ics.uci.edu/databases/eeg/eeg.html.
+
 2,In our research work ,we used the full data set  eeg_full.tar .
+
 3,Preprocess the dataset .
+
 　　　1) Uncompress all EEG fileｓ ;
+   
      2) gcc get_eeg_val.c -o get_eeg_val 
+     
      3) bash get_val_bat.sh
+     
 4,All preprocessed data can be processed  by the proposed MPI　program so that we can get the PSD features ．
+
 　　　１) Change the  directory to welch_eeg10 
+   
      2) make;#This will create a MPI progarm which can be used to extract Welch PSD  from EEG ;
+     
      3) copy ./bin/xqwelch ./diaoduall.sh  to the directory  which   the  preprocessed the EEG data located in ;
+     
      Users can adjust parameters according to the  number　 of　CPU coreｓ
+     
      4)bash diaoduall.sh 
+     
 
 
 Relevant Papers:
@@ -41,17 +54,29 @@ Please cite the following  article:Qi Xiong,et al "A Parallel Algorithm Framewor
 
 
 使用步骤：
+
 1，从以下网址下载数据集：http：//kdd.ics.uci.edu/databases/eeg/eeg.html。
+
 2，在我们的研究工作中，我们使用了完整的数据集eeg_full.tar。
+
 3，预处理数据集。
+
      1) 解压所有 EEG文件 ;
+     
      2) gcc get_eeg_val.c -o get_eeg_val 
+     
      3) bash get_val_bat.sh
+     
 4,All preprocessed data can be processed  by the proposed MPI　program so that we can get the PSD features ．
+
 　　　１) 改变目录到 welch_eeg10 
+   
      2) make;#这将创建一个MPI程序，可用于从EEG中提取Welch PSD;
-     3) copy ./bin/xqwelch ./diaoduall.sh  目录（此目录用来存放已经预处理好的脑电数据）用户可以根据自己电脑的ＣＰＵ的核数情况来调整参数。 
+     
+     3) copy ./bin/xqwelch ./diaoduall.sh  目录（此目录用来存放已经预处理好的脑电数据）用户可以根据自己电脑的ＣＰＵ的核数情况来调整参数。
+     
      4)bash diaoduall.sh 
+     
 
 相关论文：
 
