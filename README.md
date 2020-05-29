@@ -22,9 +22,9 @@ Usage steps:
 
 3,Preprocess the dataset .
 
-　　　1) Uncompress all EEG fileｓ ;
+　　　1) Uncompress all EEG files,
    
-     2) gcc get_eeg_val.c -o get_eeg_val 
+     2) gcc get_eeg_val.c -o get_eeg_val,
      
      3) bash get_val_bat.sh
      
@@ -32,11 +32,11 @@ Usage steps:
 
 　　　１) Change the  directory to welch_eeg10 
    
-      2) make;#This will create a MPI progarm which can be used to extract Welch PSD  from EEG ;
+      2) make;#This will create a MPI progarm which can be used to extract Welch PSD  from EEG ,
      
-      3) copy ./bin/xqwelch ./diaoduall.sh  to the directory  which   the  preprocessed the EEG data located in ;
+      3) copy ./bin/xqwelch ./diaoduall.sh  to the directory  which   the  preprocessed the EEG data located in ,
      
-     Users can adjust parameters according to the  number　 of　CPU coreｓ
+     Users can adjust parameters according to the  number　 of　CPU cores.
      
       4)bash diaoduall.sh 
   
