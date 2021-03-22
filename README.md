@@ -39,6 +39,7 @@ Usage steps:
      Users can adjust parameters according to the  number　 of　CPU cores.
      
       4)bash diaoduall.sh 
+ 5, platform：Ubuntu ,  MPI programming environment
   
  If users encounter any problems in using this Parallel Algorithm Framework , please feel free to contact me.284983937@qq.com
 
@@ -68,7 +69,7 @@ Please cite the following  article:Qi Xiong,et al "A Parallel Algorithm Framewor
      
      3) bash get_val_bat.sh
      
-4,All preprocessed data can be processed  by the proposed MPI　program so that we can get the PSD features ．
+4, 所有的预处理过的数据都可以通过MPI程序进行处理，从而得到PSD特征．
 
 　　　１) 改变目录到 welch_eeg10 
    
@@ -77,6 +78,7 @@ Please cite the following  article:Qi Xiong,et al "A Parallel Algorithm Framewor
      3) copy ./bin/xqwelch ./diaoduall.sh  目录（此目录用来存放已经预处理好的脑电数据）用户可以根据自己电脑的ＣＰＵ的核数情况来调整参数。
      
      4)bash diaoduall.sh 
+5, 程序运行平台：Ubuntu 编程环境： gcc,MPI并行编程环境。
      
      用户在使用这个并行算法框架的过程中如果遇到什么问题，欢迎联系我。284983937@qq.com
      
